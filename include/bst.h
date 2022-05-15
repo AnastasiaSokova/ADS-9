@@ -17,8 +17,8 @@ class BST {
     int search(T);
  private:
     Node* root;
-    Node* addNode(Node*, T); 
-    int depthTree(Node*);     
+    Node* addNode(Node*, T);
+    int depthTree(Node*);
     int searchNode(Node*, T);
 };
 
